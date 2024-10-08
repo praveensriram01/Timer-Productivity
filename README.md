@@ -1,8 +1,9 @@
-# React + Vite
+# Timer for Productivity
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Screenshot 1:
 
-Currently, two official plugins are available:
+![image](https://github.com/user-attachments/assets/581b1182-508d-48eb-b18e-8ce5cf37802f)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Screenshot 2:
+
+![image](https://github.com/user-attachments/assets/9ed80315-0f71-4bcd-8972-d0ef33e05072)

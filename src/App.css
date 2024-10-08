@@ -1,10 +1,12 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  place-content: center;
   text-align: center;
-}
-
+} 
 
 button {
   background-color: transparent;
@@ -14,4 +16,48 @@ button {
   width: 60px;
   margin: 20px;
   margin-top: 40px;
+  cursor: pointer;
+  align-items: center;
+}
+
+button:hover {
+  scale: 1.1;
+}
+
+button.with-label {
+  width: auto;
+  background: rgba(255,255,255,0.1); 
+  border-radius: 5px;
+  display: flex;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+button.with-label svg {
+  width: 25px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+
+
+button.with-label label {
+  font-size: 1.4em;
+  padding: 0;
+  margin: 5px;
+  cursor: pointer;
+}
+
+label {
+  display: block;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.settings {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }

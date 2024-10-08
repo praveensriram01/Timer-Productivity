@@ -1,0 +1,25 @@
+
+
+.slider {
+    height: 30px;
+    border: 2px solid #61dbfb;
+    border-radius: 20px;
+}
+
+.thumb {
+    height: 30px;
+    cursor: Pointer;
+    width: 30px;
+    border-radius: 50px;
+    background-color: #61dbfb;
+}
+
+.thumb:focus {
+    height: 31px;
+    width: 31px;
+    background-color: #61dbfb;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    outline: none;
+}
